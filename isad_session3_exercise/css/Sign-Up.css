@@ -1,0 +1,121 @@
+body {
+    background-color: #15151a;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+nav #first {
+    color: white;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-size: larger;
+}
+nav div a {
+    align-self: self-end;
+    color: white;
+    padding: 5px;
+    font-size:larger;
+}
+
+.login-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 440px;
+    height: 480px;
+    padding: 30px;
+}
+
+.login-header {
+    text-align:center;
+    margin: 20px 0 40px 0;
+    margin-top: 250px;
+}
+
+.login-header {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.input-box .input-field {
+    width: 100%;
+    height: 60px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0, 0.05);
+    outline: none;
+    transition: .3s;
+}
+
+::placeholder {
+    font-weight: 500;
+    color: #222;
+}
+
+.input-field:focus {
+    width: 105%;
+}
+
+.forgot {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+#check {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section a {
+    color: whitesmoke;
+}
+
+.input-submit {
+    position: relative;
+}
+
+.submit-btn {
+    width: 100%;
+    height: 60px;
+    background: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.input-submit label {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: whitesmoke;
+
+}
+
+p {
+    color: whitesmoke;
+}
