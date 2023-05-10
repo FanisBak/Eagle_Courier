@@ -65,12 +65,6 @@ nav div a {
     width: 105%;
 }
 
-.forgot {
-    display:flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
-}
-
 section {
     display: flex;
     align-items: center;
